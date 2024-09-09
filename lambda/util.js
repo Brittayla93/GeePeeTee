@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const VF_API_KEY = "MY VF API KEY";
+const MY_VF_API_KEY = "MY VF API KEY";
 
 module.exports.interact = async function interact(chatID, request) {
     let messages = [];
@@ -10,7 +10,7 @@ module.exports.interact = async function interact(chatID, request) {
         method: "POST",
         url: `https://general-runtime.voiceflow.com/state/user/${chatID}/interact`,
         headers: {
-            Authorization: VF_API_KEY
+            Authorization: MY_VF_API_KEY
         },
         data: {
             request
