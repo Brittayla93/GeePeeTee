@@ -1,0 +1,2315 @@
+{
+  "version": {
+    "_version": 11,
+    "autoSaveFromRestore": false,
+    "components": [],
+    "creatorID": 78837,
+    "folders": {},
+    "manualSave": false,
+    "name": "Initial Version",
+    "platformData": {
+      "slots": [
+        {
+          "key": "66de0ca300d4461a1ce014f7",
+          "name": "question",
+          "color": "#DC8879",
+          "inputs": [],
+          "type": {
+            "value": "VF.KEY_PHRASE"
+          }
+        },
+        {
+          "key": "66de123c00d4461a1ce01747",
+          "name": "chatgpt",
+          "color": "#5B9FD7",
+          "inputs": [
+            "cove, chat gpt, gpt, open ai"
+          ],
+          "type": {
+            "value": "Custom"
+          }
+        }
+      ],
+      "intents": [
+        {
+          "key": "66ddf6df00d4461a1ce0085f",
+          "name": "AskChatGPT",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Ask ChatGPT about the weather",
+              "slots": []
+            },
+            {
+              "text": "Tell me a joke using ChatGPT",
+              "slots": []
+            },
+            {
+              "text": "What does ChatGPT think about James Bond movies?",
+              "slots": []
+            },
+            {
+              "text": "Ask ChatGPT for advice on cooking a steak",
+              "slots": []
+            },
+            {
+              "text": "Tell me a fun fact according to ChatGPT",
+              "slots": []
+            },
+            {
+              "text": "What would ChatGPT think about the current political situation?",
+              "slots": []
+            },
+            {
+              "text": "Ask ChatGPT for a book recommendation",
+              "slots": []
+            },
+            {
+              "text": "Get ChatGPT's opinion on the latest Star Wars movie",
+              "slots": []
+            },
+            {
+              "text": "What does ChatGPT think about the latest fashion trends?",
+              "slots": []
+            },
+            {
+              "text": "Ask ChatGPT for a movie recommendation",
+              "slots": []
+            },
+            {
+              "text": "Get ChatGPT's perspective on the benefits of exercise",
+              "slots": []
+            },
+            {
+              "text": "ask chatgpt how to darn a sock",
+              "slots": []
+            },
+            {
+              "text": "ASK CHATGPT HOW TO DARN A SOCK\n",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        },
+        {
+          "key": "6579c6bf984565862f64b783",
+          "name": "Yes",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "sure",
+              "slots": []
+            },
+            {
+              "text": "certainly",
+              "slots": []
+            },
+            {
+              "text": "affirmative",
+              "slots": []
+            },
+            {
+              "text": "okay",
+              "slots": []
+            },
+            {
+              "text": "ok",
+              "slots": []
+            },
+            {
+              "text": "ya",
+              "slots": []
+            },
+            {
+              "text": "yep",
+              "slots": []
+            },
+            {
+              "text": "yup",
+              "slots": []
+            },
+            {
+              "text": "yea",
+              "slots": []
+            },
+            {
+              "text": "yes",
+              "slots": []
+            }
+          ],
+          "noteID": "4e2maa0k2d",
+          "description": "Trigger this intent when the user responds affirmatively or agrees to a question or statement using words like \"yes\", \"yea\", \"yup\", \"yep\", \"ya\", \"ok\", \"okay\", \"affirmative\", \"certainly\", or \"sure\"."
+        },
+        {
+          "key": "6579c778dd3cca0fe0e0b152",
+          "name": "No",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "negative",
+              "slots": []
+            },
+            {
+              "text": "nevermind",
+              "slots": []
+            },
+            {
+              "text": "not",
+              "slots": []
+            },
+            {
+              "text": "no thanks",
+              "slots": []
+            },
+            {
+              "text": "no way",
+              "slots": []
+            },
+            {
+              "text": "not now",
+              "slots": []
+            },
+            {
+              "text": "nah",
+              "slots": []
+            },
+            {
+              "text": "nay",
+              "slots": []
+            },
+            {
+              "text": "nope",
+              "slots": []
+            },
+            {
+              "text": "no",
+              "slots": []
+            }
+          ],
+          "noteID": "4e2mab0kvw",
+          "description": "Trigger this intent when the user responds negatively or declines something, using words like \"no\", \"nope\", \"nay\", \"nah\", \"not now\", \"no way\", \"no thanks\", \"not\", \"nevermind\", or \"negative\"."
+        },
+        {
+          "key": "None",
+          "name": "None",
+          "slots": [],
+          "inputs": [],
+          "noteID": null
+        },
+        {
+          "key": "66ddfa4900d4461a1ce00a6a",
+          "name": "AskAlexa",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Hi Alexa, ask chatgpt a question",
+              "slots": []
+            },
+            {
+              "text": "Hey Alexa, I want to ask chatgpt something important",
+              "slots": []
+            },
+            {
+              "text": "Ask chatgpt a question, Alexa",
+              "slots": []
+            },
+            {
+              "text": "Alexa, can you ask chatgpt a question for me?",
+              "slots": []
+            },
+            {
+              "text": "I need to ask chatgpt something, Alexa",
+              "slots": []
+            },
+            {
+              "text": "Hey Alexa, can you ask chatgpt a question?",
+              "slots": []
+            },
+            {
+              "text": "Alexa, I want to ask chatgpt something",
+              "slots": []
+            },
+            {
+              "text": "Ask chatgpt a question, Alexa",
+              "slots": []
+            },
+            {
+              "text": "Alexa, ask chatgpt something important for me",
+              "slots": []
+            },
+            {
+              "text": "Can you ask chatgpt a question, Alexa?",
+              "slots": []
+            },
+            {
+              "text": "Hey Alexa, I have a question for chatgpt",
+              "slots": []
+            },
+            {
+              "text": "Alexa, please ask chatgpt a question for me",
+              "slots": []
+            },
+            {
+              "text": "I want to ask chatgpt something, Alexa",
+              "slots": []
+            }
+          ],
+          "noteID": null
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "en-GB-SoniaNeural",
+        "defaultCanvasNodeVisibility": "all-variants"
+      },
+      "publishing": {},
+      "platform": "voiceflow"
+    },
+    "prototype": {
+      "data": {
+        "name": "Geepeetee",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "None",
+            "name": "None",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "None"
+              }
+            ],
+            "noteID": null
+          },
+          {
+            "key": "66ddfa4900d4461a1ce00a6a",
+            "name": "AskAlexa",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Hi Alexa, ask chatgpt a question",
+                "slots": []
+              },
+              {
+                "text": "Hey Alexa, I want to ask chatgpt something important",
+                "slots": []
+              },
+              {
+                "text": "Ask chatgpt a question, Alexa",
+                "slots": []
+              },
+              {
+                "text": "Alexa, can you ask chatgpt a question for me?",
+                "slots": []
+              },
+              {
+                "text": "I need to ask chatgpt something, Alexa",
+                "slots": []
+              },
+              {
+                "text": "Hey Alexa, can you ask chatgpt a question?",
+                "slots": []
+              },
+              {
+                "text": "Alexa, I want to ask chatgpt something",
+                "slots": []
+              },
+              {
+                "text": "Alexa, ask chatgpt something important for me",
+                "slots": []
+              },
+              {
+                "text": "Can you ask chatgpt a question, Alexa?",
+                "slots": []
+              },
+              {
+                "text": "Hey Alexa, I have a question for chatgpt",
+                "slots": []
+              },
+              {
+                "text": "Alexa, please ask chatgpt a question for me",
+                "slots": []
+              },
+              {
+                "text": "I want to ask chatgpt something, Alexa",
+                "slots": []
+              }
+            ],
+            "noteID": null
+          }
+        ],
+        "slots": [
+          {
+            "key": "66de0ca300d4461a1ce014f7",
+            "name": "question",
+            "color": "#DC8879",
+            "inputs": [],
+            "type": {
+              "value": "VF.KEY_PHRASE"
+            }
+          },
+          {
+            "key": "66de123c00d4461a1ce01747",
+            "name": "chatgpt",
+            "color": "#5B9FD7",
+            "inputs": [
+              "cove,chat gpt,gpt,open ai"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          }
+        ]
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "63068f72769976fe8ae0a58c",
+            "storage": {},
+            "variables": {},
+            "diagramID": "63068f72769976fe8ae0a58c"
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "nonDraftResponsesMap": {},
+        "responseMessagesByDiscriminatorIDMap": {},
+        "responseDiscriminatorsByResponseIDMap": {},
+        "functionDefinitions": {},
+        "referencedResponseIDs": [],
+        "slotsMap": {
+          "66de0ca300d4461a1ce014f7": {
+            "key": "66de0ca300d4461a1ce014f7",
+            "name": "question",
+            "color": "#DC8879",
+            "inputs": [],
+            "type": {
+              "value": "VF.KEY_PHRASE"
+            }
+          },
+          "66de123c00d4461a1ce01747": {
+            "key": "66de123c00d4461a1ce01747",
+            "name": "chatgpt",
+            "color": "#5B9FD7",
+            "inputs": [
+              "cove, chat gpt, gpt, open ai"
+            ],
+            "type": {
+              "value": "Custom"
+            }
+          }
+        },
+        "platform": "voiceflow",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "projectType": "voice",
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [
+          "66ddfa4900d4461a1ce00a6a",
+          "None"
+        ],
+        "goToIntentsSet": [],
+        "cmsVariables": {
+          "gpt_question": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "gpt_response": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "voice_gpt_question": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "response_with_video": {
+            "isSystem": false,
+            "defaultValue": null,
+            "datatype": "any",
+            "isArray": false
+          },
+          "sessions": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "user_id": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "timestamp": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "platform": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "intent_confidence": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_response": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_event": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "last_utterance": {
+            "isSystem": true,
+            "defaultValue": null
+          },
+          "vf_memory": {
+            "isSystem": true,
+            "defaultValue": null
+          }
+        },
+        "entitiesMap": {},
+        "variableMap": {},
+        "intentsMap": {},
+        "requiredEntitiesMap": {}
+      },
+      "settings": {},
+      "platform": "voiceflow",
+      "type": "voice"
+    },
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "63068f72769976fe8ae0a58c"
+      }
+    ],
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "intent_confidence",
+      "last_response",
+      "last_event",
+      "last_utterance",
+      "vf_memory",
+      "vf_chunks",
+      "gpt_question",
+      "gpt_response",
+      "voice_gpt_question",
+      "response_with_video"
+    ],
+    "programResources": {
+      "messages": {}
+    },
+    "_id": "66ddf42100d4461a1ce00777",
+    "updatedAt": "2024-09-08T22:23:08.030Z",
+    "domains": [
+      {
+        "id": "clwqnrd880002cswz8jkq6foj",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "63068f72769976fe8ae0a58c"
+        ],
+        "rootDiagramID": "63068f72769976fe8ae0a58c",
+        "updatedAt": "2024-09-08T18:59:45.236Z"
+      }
+    ],
+    "projectID": "66ddf42100d4461a1ce00776",
+    "rootDiagramID": "63068f72769976fe8ae0a58c",
+    "knowledgeBase": {
+      "settings": {
+        "summarization": {
+          "model": "claude-3-haiku",
+          "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences.",
+          "temperature": 0.1,
+          "mode": "prompt",
+          "prompt": ""
+        },
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        }
+      }
+    }
+  },
+  "diagrams": {
+    "63068f72769976fe8ae0a58c": {
+      "name": "ROOT",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "start00000000000000000000": {
+          "type": "start",
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ddfd8c4e476cce67712c95",
+                  "id": "60b7e7cad4b17f0ce7bddf11",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          5.87,
+                          -911.92
+                        ]
+                      },
+                      {
+                        "point": [
+                          285.71,
+                          -914.02
+                        ]
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -58.75521811700935,
+            -933.9083922616865
+          ]
+        },
+        "66ddf8064e476cce67712b68": {
+          "type": "api",
+          "data": {
+            "name": "",
+            "url": "https://api.openai.com/v1/chat/completions",
+            "body": [
+              {
+                "key": "prompt",
+                "val": "{{[gpt_question].66de04d900d4461a1ce011a0}}"
+              },
+              {
+                "key": "model",
+                "val": "gpt-3.5-turbo-16k"
+              },
+              {
+                "key": "max-tokens",
+                "val": "150"
+              }
+            ],
+            "params": [],
+            "method": "POST",
+            "headers": [
+              {
+                "key": "Authorization",
+                "val": "Bearer "MY_OPENAI_KEY"
+              },
+              {
+                "key": "Content-Type",
+                "val": "application/json"
+              }
+            ],
+            "content": "{\r\n  \"model\": \"gpt-3.5-turbo-16k\",\r\n  \"messages\": [\r\n    {\r\n      \"role\": \"user\",\r\n      \"content\": \"{gpt_question} and list a few websites that will help\"\r\n    }\r\n  ],\r\n  \"max_tokens\": 500\r\n}\r\n",
+            "mappings": [
+              {
+                "path": "choices[0].message.content",
+                "var": "66de058a00d4461a1ce01207"
+              }
+            ],
+            "bodyType": "rawInput",
+            "selectedAction": "Make a POST Request",
+            "selectedIntegration": "Custom API",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66de04ff4e476cce67712cee",
+                  "id": "66ddf8064e476cce67712b69",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          826.13,
+                          -391.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          850.13,
+                          -391.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          850.13,
+                          -695.62
+                        ]
+                      },
+                      {
+                        "point": [
+                          703.33,
+                          -695.62
+                        ]
+                      },
+                      {
+                        "point": [
+                          703.33,
+                          -999.69
+                        ]
+                      },
+                      {
+                        "point": [
+                          727.33,
+                          -999.69
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "fail": {
+                  "type": "fail",
+                  "target": "66ddfbf74e476cce67712c14",
+                  "id": "66ddf8064e476cce67712b6a",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          826.13,
+                          -337.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1000.33,
+                          -337.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1000.33,
+                          -651.6
+                        ]
+                      },
+                      {
+                        "point": [
+                          1174.53,
+                          -651.6
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "tls": {}
+          },
+          "nodeID": "66ddf8064e476cce67712b68"
+        },
+        "66ddf8064e476cce67712b6b": {
+          "type": "block",
+          "data": {
+            "name": "ChatGPT API",
+            "steps": [
+              "66ddf8064e476cce67712b68"
+            ],
+            "color": ""
+          },
+          "nodeID": "66ddf8064e476cce67712b6b",
+          "coords": [
+            660.1127862930298,
+            -558.1432790756226
+          ]
+        },
+        "66ddfbac4e476cce67712bf3": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "en-US-standard-I",
+                "content": "<prosody rate=\"fast\">Hi! ChatGPT here! Your question was \n{{[gpt_question].66de04d900d4461a1ce011a0}}, I'm glad I can help!  {{[gpt_response].66de058a00d4461a1ce01207}}</prosody>"
+              },
+              {
+                "voice": "en-US-standard-I",
+                "content": "<prosody rate=\"fast\">Hello! ChatGPT here! Your query was {{[gpt_question].gpt_question}}, I'm happy to assist! {{[gpt_response].gpt_response}}</prosody>"
+              },
+              {
+                "voice": "en-US-standard-I",
+                "content": "<prosody rate=\"fast\">Hey there! ChatGPT here! Your inquiry was {{[gpt_question].gpt_question}}, I'm here to help! {{[gpt_response].gpt_response}}</prosody>"
+              },
+              {
+                "voice": "en-US-standard-I",
+                "content": "<prosody rate=\"fast\">Greetings! ChatGPT here! Your question was {{[gpt_question].gpt_question}}, I'm pleased to provide an answer! {{[gpt_response].gpt_response}}</prosody>"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66ddfbac4e476cce67712bf4"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ddfbac4e476cce67712bf3",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddfbac4e476cce67712bf5": {
+          "type": "block",
+          "data": {
+            "name": "Read Respnonse",
+            "steps": [
+              "66ddfbac4e476cce67712bf3"
+            ],
+            "color": ""
+          },
+          "nodeID": "66ddfbac4e476cce67712bf5",
+          "coords": [
+            1324.4356108806574,
+            -1088.0826690589752
+          ]
+        },
+        "66ddfbf74e476cce67712c12": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "Alexa",
+                "content": "Sorry, Im having an issue connecting to ChatGPT, "
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ddfc9a4e476cce67712c4a",
+                  "id": "66ddfbf74e476cce67712c13",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ddfbf74e476cce67712c12",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddfbf74e476cce67712c14": {
+          "type": "block",
+          "data": {
+            "name": "New Block 6",
+            "steps": [
+              "66ddfbf74e476cce67712c12"
+            ],
+            "color": ""
+          },
+          "nodeID": "66ddfbf74e476cce67712c14",
+          "coords": [
+            1339.5164656014135,
+            -678.5991706058317
+          ]
+        },
+        "66ddfc9a4e476cce67712c49": {
+          "type": "exit",
+          "data": {
+            "name": "",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ddfc9a4e476cce67712c49",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddfc9a4e476cce67712c4a": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "66ddfc9a4e476cce67712c49"
+            ]
+          },
+          "nodeID": "66ddfc9a4e476cce67712c4a",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddf43d4e476cce67712b58": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "What would you like to ask ChatGPT? "
+              },
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "What do you want to ask ChatGPT?"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "66ddf43d4e476cce67712b59",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          418.1,
+                          -764.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          644.11,
+                          -764.31
+                        ]
+                      },
+                      {
+                        "point": [
+                          644.11,
+                          -939.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          870.12,
+                          -939.1
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66ddf43d4e476cce67712b58",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddfd8c4e476cce67712c95": {
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "choices": [
+              {
+                "intent": "66ddfa4900d4461a1ce00a6a",
+                "mappings": []
+              },
+              {
+                "intent": "None",
+                "mappings": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "noMatch": {
+              "types": [
+                "reprompt"
+              ],
+              "pathName": "No match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "Alexa",
+                  "content": "Could you please provide more information or clarify your question? I'm not sure I understand what you're asking."
+                },
+                {
+                  "voice": "Alexa",
+                  "content": "Can you give me more details or explain your question further? I'm not sure I follow."
+                }
+              ]
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "66ddf43d4e476cce67712b58",
+                  "id": "66ddfd8c4e476cce67712c96",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          285.71,
+                          -913.79
+                        ],
+                        "reversed": true
+                      },
+                      {
+                        "point": [
+                          255.03,
+                          -913.79
+                        ]
+                      },
+                      {
+                        "point": [
+                          255.03,
+                          -661.03
+                        ]
+                      },
+                      {
+                        "point": [
+                          224.35,
+                          -661.03
+                        ],
+                        "reversed": true,
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "66ddfd904e476cce67712c9d",
+                  "type": "",
+                  "target": null,
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "66ddfd8c4e476cce67712c95",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "66ddfd8c4e476cce67712c98": {
+          "type": "block",
+          "data": {
+            "name": "Wakeword",
+            "steps": [
+              "66ddfd8c4e476cce67712c95"
+            ],
+            "color": ""
+          },
+          "nodeID": "66ddfd8c4e476cce67712c98",
+          "coords": [
+            451.7333123075162,
+            -993.0025570444479
+          ]
+        },
+        "66de04ff4e476cce67712cee": {
+          "type": "speak",
+          "data": {
+            "name": "Speak",
+            "randomize": true,
+            "canvasVisibility": "all-variants",
+            "dialogs": [
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "One moment while I ask ChatGPT for you"
+              },
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "Just a second while I check with ChatGPT"
+              },
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "Hold on, let me ask ChatGPT"
+              },
+              {
+                "voice": "en-GB-SoniaNeural",
+                "content": "Give me a moment to consult ChatGPT"
+              }
+            ],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ddfbac4e476cce67712bf3",
+                  "id": "66de04ff4e476cce67712cef",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          1059.37,
+                          -791.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          1108.89,
+                          -791.44
+                        ]
+                      },
+                      {
+                        "point": [
+                          1108.89,
+                          -1009.1
+                        ]
+                      },
+                      {
+                        "point": [
+                          1158.42,
+                          -1009.1
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66de04ff4e476cce67712cee"
+        },
+        "66de04ff4e476cce67712cf0": {
+          "type": "block",
+          "data": {
+            "name": "Loading",
+            "steps": [
+              "66de04ff4e476cce67712cee"
+            ],
+            "color": ""
+          },
+          "nodeID": "66de04ff4e476cce67712cf0",
+          "coords": [
+            893.3526295496013,
+            -1078.6731781243034
+          ]
+        },
+        "66de08b34e476cce67712e00": {
+          "type": "block",
+          "data": {
+            "name": "New Block 9",
+            "steps": [
+              "66ddf43d4e476cce67712b58",
+              "66de0c6c4e476cce67712f8a"
+            ],
+            "color": ""
+          },
+          "nodeID": "66de08b34e476cce67712e00",
+          "coords": [
+            58.333909449070006,
+            -740.0158499881559
+          ]
+        },
+        "66de0c6c4e476cce67712f8a": {
+          "type": "captureV2",
+          "data": {
+            "name": "Capture",
+            "intentScope": "GLOBAL",
+            "capture": {
+              "type": "query",
+              "variable": "66de04d900d4461a1ce011a0"
+            },
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "66ddf8064e476cce67712b68",
+                  "id": "66de0c6c4e476cce67712f8b",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          224.35,
+                          -553.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          359.22,
+                          -553.56
+                        ]
+                      },
+                      {
+                        "point": [
+                          359.22,
+                          -479.16
+                        ]
+                      },
+                      {
+                        "point": [
+                          494.09,
+                          -479.16
+                        ],
+                        "allowedToTop": false
+                      }
+                    ]
+                  }
+                },
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "66de0c6c4e476cce67712f8c"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "66de0c6c4e476cce67712f8a"
+        }
+      },
+      "offsetX": 607.0041744936075,
+      "offsetY": 1047.1267138093492,
+      "modified": 1661374322,
+      "children": [],
+      "creatorID": 78837,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": [],
+      "_id": "66ddf42100d4461a1ce00778",
+      "diagramID": "63068f72769976fe8ae0a58c",
+      "versionID": "66ddf42100d4461a1ce00777"
+    }
+  },
+  "flows": [],
+  "entities": [
+    {
+      "id": "66de0ca300d4461a1ce014f7",
+      "name": "question",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": null,
+      "color": "#DC8879",
+      "classifier": "VF.KEY_PHRASE",
+      "isArray": false,
+      "createdAt": "2024-09-08T20:44:19.000Z",
+      "updatedAt": "2024-09-08T20:44:19.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de123c00d4461a1ce01747",
+      "name": "chatgpt",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": null,
+      "color": "#5B9FD7",
+      "classifier": "Custom",
+      "isArray": false,
+      "createdAt": "2024-09-08T21:08:13.000Z",
+      "updatedAt": "2024-09-08T21:08:13.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de278200d4461a1ce02602",
+      "name": "materials",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": null,
+      "color": "#CB627B",
+      "classifier": "VF.KEY_PHRASE",
+      "isArray": false,
+      "createdAt": "2024-09-08T22:38:58.000Z",
+      "updatedAt": "2024-09-08T22:38:58.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "entityVariants": [
+    {
+      "id": "66de123c00d4461a1ce01748",
+      "language": "en-us",
+      "value": "cove, chat gpt, gpt, open ai",
+      "synonyms": [],
+      "entityID": "66de123c00d4461a1ce01747",
+      "createdAt": "2024-09-08T21:08:13.000Z"
+    }
+  ],
+  "intents": [
+    {
+      "id": "66ddf6df00d4461a1ce0085f",
+      "name": "AskChatGPT",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": "",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-08T19:11:28.000Z",
+      "updatedAt": "2024-09-08T20:40:15.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "6579c6bf984565862f64b783",
+      "name": "Yes",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds affirmatively or agrees to a question or statement using words like \"yes\", \"yea\", \"yup\", \"yep\", \"ya\", \"ok\", \"okay\", \"affirmative\", \"certainly\", or \"sure\".",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "6579c778dd3cca0fe0e0b152",
+      "name": "No",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": "Trigger this intent when the user responds negatively or declines something, using words like \"no\", \"nope\", \"nay\", \"nah\", \"not now\", \"no way\", \"no thanks\", \"not\", \"nevermind\", or \"negative\".",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "None",
+      "name": "None",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": null,
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66ddfa4900d4461a1ce00a6a",
+      "name": "AskAlexa",
+      "createdByID": 78837,
+      "folderID": null,
+      "description": "",
+      "automaticReprompt": false,
+      "entityOrder": [],
+      "automaticRepromptSettings": null,
+      "createdAt": "2024-09-08T19:26:01.000Z",
+      "updatedAt": "2024-09-08T21:08:53.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "utterances": [
+    {
+      "id": "66ddf6df00d4461a1ce00860",
+      "text": [
+        {
+          "text": [
+            "Ask ChatGPT about the weather"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00861",
+      "text": [
+        {
+          "text": [
+            "Tell me a joke using ChatGPT"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00862",
+      "text": [
+        {
+          "text": [
+            "What does ChatGPT think about James Bond movies?"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00863",
+      "text": [
+        {
+          "text": [
+            "Ask ChatGPT for advice on cooking a steak"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00864",
+      "text": [
+        {
+          "text": [
+            "Tell me a fun fact according to ChatGPT"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00865",
+      "text": [
+        {
+          "text": [
+            "What would ChatGPT think about the current political situation?"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00866",
+      "text": [
+        {
+          "text": [
+            "Ask ChatGPT for a book recommendation"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00867",
+      "text": [
+        {
+          "text": [
+            "Get ChatGPT's opinion on the latest Star Wars movie"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00868",
+      "text": [
+        {
+          "text": [
+            "What does ChatGPT think about the latest fashion trends?"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce00869",
+      "text": [
+        {
+          "text": [
+            "Ask ChatGPT for a movie recommendation"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "66ddf6df00d4461a1ce0086a",
+      "text": [
+        {
+          "text": [
+            "Get ChatGPT's perspective on the benefits of exercise"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T19:11:28.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2165",
+      "text": [
+        {
+          "text": [
+            "sure"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2166",
+      "text": [
+        {
+          "text": [
+            "certainly"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2167",
+      "text": [
+        {
+          "text": [
+            "affirmative"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2168",
+      "text": [
+        {
+          "text": [
+            "okay"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2169",
+      "text": [
+        {
+          "text": [
+            "ok"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216a",
+      "text": [
+        {
+          "text": [
+            "ya"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216b",
+      "text": [
+        {
+          "text": [
+            "yep"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216c",
+      "text": [
+        {
+          "text": [
+            "yup"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216d",
+      "text": [
+        {
+          "text": [
+            "yea"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216e",
+      "text": [
+        {
+          "text": [
+            "yes"
+          ]
+        }
+      ],
+      "intentID": "6579c6bf984565862f64b783",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae216f",
+      "text": [
+        {
+          "text": [
+            "negative"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2170",
+      "text": [
+        {
+          "text": [
+            "nevermind"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2171",
+      "text": [
+        {
+          "text": [
+            "not"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2172",
+      "text": [
+        {
+          "text": [
+            "no thanks"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2173",
+      "text": [
+        {
+          "text": [
+            "no way"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2174",
+      "text": [
+        {
+          "text": [
+            "not now"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2175",
+      "text": [
+        {
+          "text": [
+            "nah"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2176",
+      "text": [
+        {
+          "text": [
+            "nay"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2177",
+      "text": [
+        {
+          "text": [
+            "nope"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "6656111db2836a439cae2178",
+      "text": [
+        {
+          "text": [
+            "no"
+          ]
+        }
+      ],
+      "intentID": "6579c778dd3cca0fe0e0b152",
+      "language": "en-us",
+      "createdAt": "2024-09-08T18:59:45.000Z"
+    },
+    {
+      "id": "66de09b700d4461a1ce013f1",
+      "text": [
+        {
+          "text": [
+            "ask chatgpt how to darn a sock"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T20:31:51.000Z"
+    },
+    {
+      "id": "66de0b2300d4461a1ce01477",
+      "text": [
+        {
+          "text": [
+            "ASK CHATGPT HOW TO DARN A SOCK\n"
+          ]
+        }
+      ],
+      "intentID": "66ddf6df00d4461a1ce0085f",
+      "language": "en-us",
+      "createdAt": "2024-09-08T20:37:56.000Z"
+    },
+    {
+      "id": "66de246100d4461a1ce023d7",
+      "text": [
+        {
+          "text": [
+            "Ask chatgpt"
+          ]
+        }
+      ],
+      "intentID": "66ddfa4900d4461a1ce00a6a",
+      "language": "en-us",
+      "createdAt": "2024-09-08T22:25:38.000Z"
+    }
+  ],
+  "requiredEntities": [],
+  "folders": [],
+  "responses": [
+    {
+      "id": "66de07dd00d4461a1ce012ef",
+      "name": "",
+      "createdByID": 78837,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-08T20:23:58.000Z",
+      "updatedAt": "2024-09-08T20:24:04.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de0a3500d4461a1ce01429",
+      "name": "",
+      "createdByID": 78837,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-08T20:33:58.000Z",
+      "updatedAt": "2024-09-08T20:34:02.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de123d00d4461a1ce0174a",
+      "name": "",
+      "createdByID": 78837,
+      "folderID": null,
+      "type": "message",
+      "draft": false,
+      "createdAt": "2024-09-08T21:08:14.000Z",
+      "updatedAt": "2024-09-08T21:08:21.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "responseMessages": [
+    {
+      "id": "66de07dd00d4461a1ce012f1",
+      "discriminatorID": "66de07dd00d4461a1ce012f0",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T20:23:58.000Z"
+    },
+    {
+      "id": "66de0a3500d4461a1ce0142b",
+      "discriminatorID": "66de0a3500d4461a1ce0142a",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T20:33:58.000Z"
+    },
+    {
+      "id": "66de0a4100d4461a1ce0143b",
+      "discriminatorID": "66de0a3500d4461a1ce0142a",
+      "text": [
+        {
+          "text": [
+            "Are you looking for assistance with something specific or do you have a question you'd like to ask?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T20:34:09.000Z"
+    },
+    {
+      "id": "66de123d00d4461a1ce0174c",
+      "discriminatorID": "66de123d00d4461a1ce0174b",
+      "text": [
+        {
+          "text": [
+            ""
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T21:08:14.000Z"
+    },
+    {
+      "id": "66de124500d4461a1ce01750",
+      "discriminatorID": "66de123d00d4461a1ce0174b",
+      "text": [
+        {
+          "text": [
+            "Hey, looks like your ChatGPT isn't showing up, do you need help with something?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T21:08:21.000Z"
+    },
+    {
+      "id": "66de124500d4461a1ce01751",
+      "discriminatorID": "66de123d00d4461a1ce0174b",
+      "text": [
+        {
+          "text": [
+            "I noticed your ChatGPT isn't visible, is everything okay?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T21:08:21.000Z"
+    },
+    {
+      "id": "66de124500d4461a1ce01752",
+      "discriminatorID": "66de123d00d4461a1ce0174b",
+      "text": [
+        {
+          "text": [
+            "I'm not seeing your ChatGPT, did you need assistance with something?"
+          ]
+        }
+      ],
+      "condition": null,
+      "delay": null,
+      "createdAt": "2024-09-08T21:08:21.000Z"
+    }
+  ],
+  "responseDiscriminators": [
+    {
+      "id": "66de07dd00d4461a1ce012f0",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66de07dd00d4461a1ce012ef",
+      "variantOrder": [
+        "66de07dd00d4461a1ce012f1"
+      ],
+      "createdAt": "2024-09-08T20:23:58.000Z"
+    },
+    {
+      "id": "66de0a3500d4461a1ce0142a",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66de0a3500d4461a1ce01429",
+      "variantOrder": [
+        "66de0a3500d4461a1ce0142b",
+        "66de0a4100d4461a1ce0143b"
+      ],
+      "createdAt": "2024-09-08T20:33:58.000Z"
+    },
+    {
+      "id": "66de123d00d4461a1ce0174b",
+      "channel": "default",
+      "language": "en-us",
+      "responseID": "66de123d00d4461a1ce0174a",
+      "variantOrder": [
+        "66de123d00d4461a1ce0174c",
+        "66de124500d4461a1ce01750",
+        "66de124500d4461a1ce01751",
+        "66de124500d4461a1ce01752"
+      ],
+      "createdAt": "2024-09-08T21:08:14.000Z"
+    }
+  ],
+  "variables": [
+    {
+      "id": "66de04d900d4461a1ce011a0",
+      "name": "gpt_question",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#CB627B",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T20:11:05.000Z",
+      "updatedAt": "2024-09-08T20:11:05.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de058a00d4461a1ce01207",
+      "name": "gpt_response",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#5B9FD7",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T20:14:03.000Z",
+      "updatedAt": "2024-09-08T20:14:03.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de148200d4461a1ce01835",
+      "name": "voice_gpt_question",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T21:17:55.000Z",
+      "updatedAt": "2024-09-08T21:17:55.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de18aa00d4461a1ce01b57",
+      "name": "response_with_video",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": false,
+      "datatype": "any",
+      "description": "",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T21:35:38.000Z",
+      "updatedAt": "2024-09-08T21:35:38.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "sessions",
+      "name": "sessions",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The number of times a particular user has opened the app.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "user_id",
+      "name": "user_id",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's unique ID.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "timestamp",
+      "name": "timestamp",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "UNIX timestamp (number of seconds since January 1st, 1970 at UTC).",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "platform",
+      "name": "platform",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The platform your agent is running on (e.g. \"voiceflow\").",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "intent_confidence",
+      "name": "intent_confidence",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "number",
+      "description": "The confidence interval (measured as a value from 0 to 100) for the most recently matched intent.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "last_response",
+      "name": "last_response",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The agent's last response (text/speak) in a string.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "last_event",
+      "name": "last_event",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "any",
+      "description": "The object containing the last event that the user client has triggered.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "last_utterance",
+      "name": "last_utterance",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "The user's last utterance in a text string.",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "vf_memory",
+      "name": "vf_memory",
+      "createdByID": 78837,
+      "folderID": null,
+      "color": "#515A63",
+      "isArray": false,
+      "isSystem": true,
+      "datatype": "text",
+      "description": "Last 10 user inputs and agent responses in a string (e.g. \"agent: How can i help?\"\nuser: What's the weather today?).",
+      "defaultValue": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T18:59:45.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "workflows": [
+    {
+      "id": "6656111db2836a439cae2179",
+      "name": "Home",
+      "createdByID": 78837,
+      "folderID": null,
+      "status": null,
+      "isStart": true,
+      "diagramID": "63068f72769976fe8ae0a58c",
+      "assigneeID": null,
+      "description": null,
+      "createdAt": "2024-09-08T18:59:45.000Z",
+      "updatedAt": "2024-09-08T22:44:19.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "attachments": [],
+  "cardButtons": [],
+  "functions": [
+    {
+      "id": "66de169200d4461a1ce0193c",
+      "name": "Listen",
+      "createdByID": 78837,
+      "folderID": null,
+      "code": "export default async function main(args) {\n  return {\n    // Choice trace\n    trace: [\n      {\n        type: 'choice',\n        payload: {\n          buttons: [\n            {\n              name: \"Button A\",\n              request: { type: 'event_A' }\n            },\n            {\n              name: \"Button B\",\n              request: { type: 'event_B', payload: { data: 100 } }\n            },\n            {\n              name: \"Button C\",\n              request: { type: 'event_B', payload: { data: 200 } }\n            }\n          ]\n        }\n      }\n    ],\n    \n    // Next many command\n    next: {\n      listen: true,\n      to: [\n        {\n          on: { 'event.type': 'event_A' },\n          dest: 'path-A'\n        },\n        {\n          on: { \n\t          'event.type': 'event_B',\n\t          'event.payload.data': 100\n\t        },\n          dest: 'path-B'\n        },\n        {\n          on: { \n\t          'event.type': 'event_B',\n\t          'event.payload.data': 200\n\t        },\n          dest: 'path-C'\n        }\n      ],\n      defaultTo: 'path-D'\n    }\n  }; \n}",
+      "image": null,
+      "description": "Demonstrates how to use listen functionality to leave from a certain path based on user input",
+      "pathOrder": [
+        "66de169200d4461a1ce0193d",
+        "66de169200d4461a1ce0193e",
+        "66de169200d4461a1ce0193f",
+        "66de169200d4461a1ce01940"
+      ],
+      "createdAt": "2024-09-08T21:26:42.000Z",
+      "updatedAt": "2024-09-08T21:26:42.000Z",
+      "updatedByID": 78837
+    },
+    {
+      "id": "66de16cf00d4461a1ce01959",
+      "name": "Video response",
+      "createdByID": 78837,
+      "folderID": null,
+      "code": "export default async function main(args) {\n  const apiKey = 'AIzaSyDXWrtsEPQolX4McromwObS31L-_MYY8yk';  // Replace with your YouTube Data API key\n  const userQuestion = args.gpt_question || 'default question';  // Get the user's query (from GPT or VoiceFlow variable)\n\n  // Define the YouTube Search API URL\n  const searchUrl = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=${encodeURIComponent(userQuestion)}&type=video&key=${apiKey}`;\n\n  try {\n    // Fetch the video information from YouTube API\n    const response = await fetch(searchUrl);\n    const data = await response.json();\n\n    // Check if the API response contains a video\n    if (data.items && data.items.length > 0) {\n      const videoId = data.items[0].id.videoId; // Get the first video's ID\n      const videoUrl = `https://www.youtube.com/watch?v=${videoId}`; // Construct the video URL\n\n      // Constructing the custom video trace to return\n      return {\n        next: { path: 'success' },  // Indicating the successful execution of the function\n        trace: [\n          {\n            type: \"ext_video\",  // Custom trace type for video content\n            payload: {\n              videoUrl: videoUrl,  // The URL of the first video from YouTube search\n              autoplay: true,  // Optional: Set video to autoplay\n              controls: true  // Optional: Enable video controls\n            }\n          }\n        ] \n      };\n    } else {\n      // If no videos are found, return a default response\n      return {\n        next: { path: 'no_video_found' }, \n        trace: [\n          {\n            type: \"speak\", \n            payload: {\n              message: \"Sorry, I couldn't find a video for that question.\"\n            }\n          }\n        ]\n      };\n    }\n  } catch (error) {\n    // Handle any errors during the fetch process\n    console.error('Error fetching YouTube video:', error);\n\n    return {\n      next: { path: 'error' }, \n      trace: [\n        {\n          type: \"speak\", \n          payload: {\n            message: \"There was an error while fetching the video. Please try again later.\"\n          }\n        }\n      ]\n    };\n  }\n\n}",
+      "image": null,
+      "description": "Demonstrates how to use a function to show a video to a user. This needs to be paired with the video extension to work as intended.",
+      "pathOrder": [
+        "66de16cf00d4461a1ce0195a"
+      ],
+      "createdAt": "2024-09-08T21:27:44.000Z",
+      "updatedAt": "2024-09-08T21:41:34.000Z",
+      "updatedByID": 78837
+    }
+  ],
+  "functionPaths": [
+    {
+      "id": "66de169200d4461a1ce01940",
+      "name": "path-D",
+      "label": "",
+      "functionID": "66de169200d4461a1ce0193c",
+      "createdAt": "2024-09-08T21:26:42.204Z"
+    },
+    {
+      "id": "66de169200d4461a1ce0193f",
+      "name": "path-C",
+      "label": "",
+      "functionID": "66de169200d4461a1ce0193c",
+      "createdAt": "2024-09-08T21:26:42.205Z"
+    },
+    {
+      "id": "66de169200d4461a1ce0193e",
+      "name": "path-B",
+      "label": "",
+      "functionID": "66de169200d4461a1ce0193c",
+      "createdAt": "2024-09-08T21:26:42.206Z"
+    },
+    {
+      "id": "66de169200d4461a1ce0193d",
+      "name": "path-A",
+      "label": "",
+      "functionID": "66de169200d4461a1ce0193c",
+      "createdAt": "2024-09-08T21:26:42.207Z"
+    },
+    {
+      "id": "66de16cf00d4461a1ce0195a",
+      "name": "success",
+      "label": "Success",
+      "functionID": "66de16cf00d4461a1ce01959",
+      "createdAt": "2024-09-08T21:27:43.787Z"
+    }
+  ],
+  "functionVariables": [
+    {
+      "id": "66de16d400d4461a1ce0195b",
+      "name": "",
+      "type": "input",
+      "functionID": "66de16cf00d4461a1ce01959",
+      "description": "",
+      "createdAt": "2024-09-08T21:27:48.726Z"
+    },
+    {
+      "id": "66de16f000d4461a1ce0195c",
+      "name": "",
+      "type": "output",
+      "functionID": "66de16cf00d4461a1ce01959",
+      "description": "",
+      "createdAt": "2024-09-08T21:28:16.041Z"
+    }
+  ],
+  "project": {
+    "type": "voice",
+    "name": "Geepeetee",
+    "image": "",
+    "teamID": "PGE9m1aEY3",
+    "members": [],
+    "privacy": "private",
+    "platform": "voiceflow",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 78837,
+    "updatedBy": 78837,
+    "apiPrivacy": "private",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "customThemes": [],
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "_id": "66ddf42100d4461a1ce00776",
+    "updatedAt": "2024-09-08T22:43:13.751Z",
+    "knowledgeBase": {
+      "settings": {
+        "summarization": {
+          "prompt": "",
+          "mode": "prompt",
+          "model": "claude-3-haiku",
+          "maxTokens": 128,
+          "temperature": 0.1,
+          "system": "You are an FAQ AI chat agent. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
+        },
+        "chunkStrategy": {
+          "type": "recursive_text_splitter",
+          "size": 1200,
+          "overlap": 200
+        },
+        "search": {
+          "limit": 3,
+          "metric": "IP"
+        },
+        "embeddingModel": {
+          "model": "text-embedding-3-large",
+          "size": 1024
+        }
+      }
+    },
+    "devVersion": "66ddf42100d4461a1ce00777"
+  },
+  "_version": "1.2",
+  "variableStates": []
+}
